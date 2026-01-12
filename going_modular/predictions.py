@@ -134,3 +134,4 @@ def pred_and_plot_image_GRAY(
         f"Pred: {class_names[pred_label]} | Prob: {probs.max():.3f}"
     )
     plt.axis("off")
+    plt.close()

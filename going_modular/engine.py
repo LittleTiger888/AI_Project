@@ -198,7 +198,7 @@ from typing import Dict, List
 from tqdm.auto import tqdm
 from torch.utils.tensorboard import SummaryWriter
 # Add writer parameter to train()
-def train_TB(model: torch.nn.Module, 
+def train_TSB(model: torch.nn.Module, 
           train_dataloader: torch.utils.data.DataLoader, 
           test_dataloader: torch.utils.data.DataLoader, 
           optimizer: torch.optim.Optimizer,
