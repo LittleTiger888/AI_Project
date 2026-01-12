@@ -2,3 +2,5 @@
 .ipynb_checkpoints/
 __pycache__/
 *.log
+*.pth
+models/*.pth
