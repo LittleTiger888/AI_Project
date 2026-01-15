@@ -1,0 +1,9 @@
+train: /home/aispark/Project/CV/VehicleSegmentation/train/images
+val: /home/aispark/Project/CV/VehicleSegmentation/valid/images
+test: /home/aispark/Project/CV/VehicleSegmentation/test/images
+
+nc: 6
+names: ['bus', 'car', 'crowd', 'motorbike-bike', 'truck', 'van']
+
+#roboflow:
+  #url: https://universe.roboflow.com/tam-khi-trn/vehicle-segmentation/dataset/2y
